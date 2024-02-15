@@ -32,7 +32,7 @@ def get_soup_req(url:str) -> BeautifulSoup:
     
     print(resp.status_code)
     html_text = resp.text
-
+    
     soup = BeautifulSoup(html_text, 'html.parser')
 
     # save_soup(soup,filename)
