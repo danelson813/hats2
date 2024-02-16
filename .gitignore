@@ -72,3 +72,4 @@ data/*.txt
 data/*.db 
 data/*.png 
 *.png
+*copy.toml

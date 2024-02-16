@@ -12,7 +12,12 @@ requests = "^2.31.0"
 pandas = "^2.2.0"
 pyarrow = "^15.0.0"
 selenium = "^4.17.2"
+playwright = "^1.41.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/danelson813/hats2"
+"bug Tracker" = "https://github.com/pypa/hats2/issues"
